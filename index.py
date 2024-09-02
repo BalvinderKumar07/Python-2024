@@ -11,3 +11,5 @@ def mysum(a,b):
 mysum(12,10)
 
 print("Balvinder Kumar")
+
+print(12 + 1212)
