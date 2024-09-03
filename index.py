@@ -1,15 +1,29 @@
-print("hello Word")
+# 2/09/2024
+# print("hello Word") 
 
-x = 100
-y = 3000
+#03/09/2024
+# print("hello World") 
 
-print(x + y)
+# print( 10 if 20)
 
-def mysum(a,b):
-    return a+b
 
-mysum(12,10)
+x = 20
+X = 30
 
-print("Balvinder Kumar")
+student_name = 'rahul'
 
-print(12 + 1212)
+_a = 34
+a_ = 45
+_name_ = 65
+
+print(student_name)
+# print(X)
+
+# 
+
+# ytujhhhhhhhhhhhhhhhhhg
+
+# uiddddddddddddddddd
+
+# dufdsuhf
+# sdfsuddddddddddddddddd
