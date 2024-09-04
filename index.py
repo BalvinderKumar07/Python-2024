@@ -7,19 +7,17 @@
 # print( 10 if 20)
 
 
-x = 20
-X = 30
+# x = 20
+# X = 30
 
-student_name = 'rahul'
+# student_name = 'rahul' "57658765" '865765865'
 
-_a = 34
-a_ = 45
-_name_ = 65
+# _a = 34
+# a_ = 45
+# _name_ = 65
 
-print(student_name)
+# print(student_name)
 # print(X)
-
-# 
 
 # ytujhhhhhhhhhhhhhhhhhg
 
@@ -27,3 +25,27 @@ print(student_name)
 
 # dufdsuhf
 # sdfsuddddddddddddddddd
+
+# =====================04/09/2024==============
+
+fname = "rahul"
+lname = "kumar"
+address = """123, main road
+near bus stand
+kolkata
+"""
+
+x = 54675 
+z = 10 #int
+a = 10.6 #float
+
+# h = 6787643873632876e #long
+
+g = 2.14j  #complex
+
+y = None #10mb
+
+# print(fname + lname )
+# print(address)
+
+print(type(fname))
