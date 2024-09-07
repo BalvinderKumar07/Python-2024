@@ -66,6 +66,7 @@ y = 3 + 6 % 7 * (7 + 10) # 17
 y = y -  3 # 
 print( a + y) # 11 + 6 = 14
 
+print("I am new inst git")
 
 
 
