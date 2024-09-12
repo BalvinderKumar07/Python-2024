@@ -89,7 +89,37 @@
 # print(x ^ y)
 
 
-print(~10)  # 1 0 1 0 = 0 1 0 1
+# print(~10)  # 1 0 1 0 = 0 1 0 1
+
+
+# =====================12/09/2024==============
+
+
+# print("hello") #010101110010101 1 = on 0 = off
+#                    0      0     0   0   1
+# x = 13 #128  64   32 16  8   4  2  1
+# y = 23               #        10111 = 01101 =    0101  11111
+
+# print( x & y ) 
+# print( x | y ) 
+# print( x ^ y ) 
+# print(not(x)) 
+
+# Name1 = ["a","b","c","d"]
+# Name2 = ["a","b","e","d"]
+# Name3 = Name1
+
+# print("c" in Name)
+# print("c" not in Name)
+
+# print(Name1 is Name3)
+# print(Name3 is Name2)
+# ==================IS NOT 
+# print(Name3 is not Name1)
+# print(Name3 is not Name2)
 
 
 
+
+
+ 
