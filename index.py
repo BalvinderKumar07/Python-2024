@@ -114,9 +114,52 @@
 
 # print(Name1 is Name3)
 # print(Name3 is Name2)
+
 # ==================IS NOT 
+
 # print(Name3 is not Name1)
 # print(Name3 is not Name2)
+
+
+# =====================13/09/2024==============
+
+x = 136
+y = 89 
+
+a = 186
+b = 365
+c = 203
+
+#and or xor not
+
+# =====================14/09/2024==============
+
+# print("hello")
+
+user = 91
+
+if((91<= user) & (100>=user)):
+        print("A+")
+elif((81<= user) & (90>=user)):
+        print("B")
+elif((71<= user) & (80>=user)):
+        print("C")
+elif((55<= user) & (70>=user)):
+        print("D")
+elif((33<= user) & (54>=user)):
+        print("E")
+else:
+    print("Fail")   
+
+# if(user >= 33):
+#     print("Pass")
+# else:
+#     print("Fail")    
+
+
+
+
+
 
 
 
