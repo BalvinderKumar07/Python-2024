@@ -159,12 +159,35 @@
 
 # =====================16/09/2024==============
 
-a = int(input("Enter A Number: "))
+# a = int(input("Enter A Number: "))
 
-if(a%2==0):
-    print("Even")
-else:
-    print("Odd")    
+# if(a%2==0):
+#     print("Even")
+# else:
+#     print("Odd")   
+
+
+# =====================17/09/2024==============
+
+
+# h = float(input("Enter A Number : ")) # 6.8 6767.9
+
+# if(h%2==0):
+#     print("Even")
+# else:
+#     print("Odd")
+
+# print(h)
+
+x = 0
+while x < 10: 
+    print(x)
+    x = x + 1
+# print(x)
+
+
+
+
 
 
 
