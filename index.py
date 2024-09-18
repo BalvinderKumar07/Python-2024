@@ -179,12 +179,20 @@
 
 # print(h)
 
-x = 0
-while x < 10: 
-    print(x)
-    x = x + 1
+# x = 0
+# while x < 10: 
+#     print(x)
+#     x = x + 1
 # print(x)
 
+# =====================18/09/2024==============
+
+table = int(input("Enter a Number : "))
+
+x = 1
+while x <= 10: 
+    print(x * table)
+    x = x + 1
 
 
 
