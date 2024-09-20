@@ -187,12 +187,26 @@
 
 # =====================18/09/2024==============
 
-table = int(input("Enter a Number : "))
+# table = int(input("Enter a Number : "))
 
+# x = 1
+# while x <= 10: 
+#     print(x * table)
+#     x = x + 1
+
+
+# =====================20/09/2024==============
+
+i = 1
 x = 1
-while x <= 10: 
-    print(x * table)
-    x = x + 1
+num = int(input("Enter A number : ")) 
+
+while i <= num:
+    x = x * i # 1x1 = 1x2 = 2x3 = 6x4 = 24x5 = 120
+    i = i + 1 # 1,2,3,4,5
+    print(x)    
+    
+
 
 
 
