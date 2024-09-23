@@ -197,26 +197,40 @@
 
 # =====================20/09/2024==============
 
-i = 1
+# i = 1
+# x = 1
+# num = int(input("Enter A number : ")) 
+
+# while i <= num:
+#     x = x * i # 1x1 = 1x2 = 2x3 = 6x4 = 24x5 = 120
+#     i = i + 1 # 1,2,3,4,5
+#     print(x) 
+# 
+# =====================21/09/2024==============   
+
+# print("Practice Session For The all Programs Chapter No. 4")
+
+# =====================23/09/2024==============
+
+# year = int(input("Enter your year : "))
+
+# if((year%400==0) and (year%100==0)):
+#     print(year, "Is Leap year")
+# elif(year%4==0):
+#    print(year, "Is Leap year") 
+# else:
+#     print(year, "Is Not Leap year") 
+
+
+num = int(input("Enter a Number : ")) # 10
+
 x = 1
-num = int(input("Enter A number : ")) 
-
-while i <= num:
-    x = x * i # 1x1 = 1x2 = 2x3 = 6x4 = 24x5 = 120
-    i = i + 1 # 1,2,3,4,5
-    print(x)    
-    
-
-
+while x <= 10: #3 <= 10
+    j = 1
+    while( j <= num): # 2 <= 5
+        print(j * x, end=" " ) # 2 X 1 = 2
+        j = j + 1 # 2
+    print()     
+    x = x + 1 
 
 
-
-
-
-
-
-
-
-
-
- 
