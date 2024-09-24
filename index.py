@@ -222,15 +222,45 @@
 #     print(year, "Is Not Leap year") 
 
 
-num = int(input("Enter a Number : ")) # 10
+# num = int(input("Enter a Number : ")) # 10
 
-x = 1
-while x <= 10: #3 <= 10
-    j = 1
-    while( j <= num): # 2 <= 5
-        print(j * x, end=" " ) # 2 X 1 = 2
-        j = j + 1 # 2
-    print()     
-    x = x + 1 
+# x = 1
+# while x <= 10: #3 <= 10
+#     j = 1
+#     while( j <= num): # 2 <= 5
+#         print(j * x, end=" " ) # 2 X 1 = 2
+#         j = j + 1 # 2
+#     print()     
+#     x = x + 1 
+
+# =====================24/09/2024==============
+
+# x = 11
+
+# while x<=10:
+#     print(x)
+#     x = x + 1
+# else:
+#     print("loop is end") 
+
+# name = "PYTHON" # p y t
+
+# for x in name:
+#     print(x)
+
+# mylist = ("rahul","aman","pardeep","sonu")
+
+# for f in mylist:
+#     print(f)
+
+# for x in range(-100,2,5):
+#     print(x)
 
 
+num = int(input("Enter A Number : ")) # 5
+j = 1
+while j <= num: # 2 <= 5
+    for i in range(1,11): # 2
+        print(i * j , end=" ") # 2 x 1 = 2 2 x 2 = 4 3 x 1 = 3 10
+    print()
+    j = j + 1
