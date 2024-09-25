@@ -257,10 +257,30 @@
 #     print(x)
 
 
-num = int(input("Enter A Number : ")) # 5
-j = 1
-while j <= num: # 2 <= 5
-    for i in range(1,11): # 2
-        print(i * j , end=" ") # 2 x 1 = 2 2 x 2 = 4 3 x 1 = 3 10
-    print()
-    j = j + 1
+# num = int(input("Enter A Number : ")) # 5
+# j = 1
+# while j <= num: # 5
+#     for i in range(1,11): 
+#         print(i * j , end=" ") #1x5 = 10
+#     print()
+#     j = j + 1 #1 2 3 4 5 6
+
+# =====================25/09/2024==============
+
+# for i in range(1,4): # 1 2 3
+#     for j in range(1,4): #1 2 3
+#         print(i , "=", j )
+
+n = int(input("Enter a number : "))
+
+for i in range(1 ,(n+1)): # 1 2 3 4 5
+    for x in range(1 ,(i+1)): #1 2 3 4 5
+        print("*" ,end="")
+    print()    
+
+
+# *
+# * *
+# * * *
+# * * * *
+# * * * * *
