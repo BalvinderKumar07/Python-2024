@@ -271,16 +271,50 @@
 #     for j in range(1,4): #1 2 3
 #         print(i , "=", j )
 
-n = int(input("Enter a number : "))
+# n = int(input("Enter a number : "))
 
-for i in range(1 ,(n+1)): # 1 2 3 4 5
-    for x in range(1 ,(i+1)): #1 2 3 4 5
-        print("*" ,end="")
-    print()    
-
+# for i in range(1 ,(n+1)): # 1 2 3 4 5
+#     for x in range(1 ,(i+1)): #1 2 3 4 5
+#         print("*" ,end="")
+#     print()    
 
 # *
 # * *
 # * * *
 # * * * *
 # * * * * *
+
+# =====================26/09/2024==============
+
+# n = 5
+
+# for i in range(1,(n+1)):
+#     print("=" * (n-i) ,end="")
+#     print("* " * i)
+
+
+# n = 5
+# for g in range(1,n+1):
+#     print("=" * (n-g),end=" ")
+#     print("* " * g)
+# else:
+#     print("loop is end") 
+
+# n = int(input("enter a number : "))
+
+ # 1234678910  
+
+for i in range(1,10):
+    if i == 5:
+        continue
+    print(i)
+.
+# s = "ABCDEF"
+# for f in s:
+#     if f == "D":
+#         continue
+#     print(f)    
+
+   
+
+
