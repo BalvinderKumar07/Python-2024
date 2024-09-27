@@ -304,16 +304,26 @@
 
  # 1234678910  
 
-for i in range(1,10):
-    if i == 5:
-        continue
-    print(i)
-.
+# for i in range(1,10):
+#     if i == 5:
+#         continue
+#     print(i)
+
 # s = "ABCDEF"
 # for f in s:
 #     if f == "D":
-#         continue
+#         pass
 #     print(f)    
+
+
+a = int(input("Enter 1st Number : "))
+b = int(input("Enter 2nd Number : "))
+
+print("the values of a / b is : ")
+
+assert b != 0 and a != 0 , "Divide by 0 error"
+
+print(a / b)
 
    
 
