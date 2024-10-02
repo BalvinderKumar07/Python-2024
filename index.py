@@ -319,15 +319,49 @@
 #     print(f)    
 
 
-a = int(input("Enter 1st Number : "))
-b = int(input("Enter 2nd Number : "))
+# a = int(input("Enter 1st Number : "))
+# b = int(input("Enter 2nd Number : "))
 
-print("the values of a / b is : ")
+# print("the values of a / b is : ")
 
-assert b != 0 and a != 0 , "Divide by 0 error"
+# assert b != 0 and a != 0 , "Divide by 0 error"
 
-print(a / b)
+# print(a / b)
 
-   
+# x = 1
+# while x <= 10:
+#     print(x)
+#     x = x + 1
 
+
+# for number in range(1, 21):
+#     if number > 15:
+#         break  # Stop the loop if the number is greater than 15
+#     if number % 2 != 0:
+#         continue  # Skip odd numbers
+#     print(number)
+
+
+# for num in range(1, 11):
+#     print(num)
+# =====================30/09/2024==============
+
+#TEST OF 4 CHAPTER
+
+# =====================02/10/2024==============
+
+# name = ["rahul","aman","sandeep","pankaj","aman"] #0,len 
+
+# for i in name:
+#     print(i)
+
+# print(type(name))
+# print(name[4])
+
+# num = [12,21,23,43,43,544,3453,34]
+
+# for i in num:
+#     if i%2==0:
+#         continue
+#     print(i)
 
