@@ -365,3 +365,44 @@
 #         continue
 #     print(i)
 
+
+# =====================03/10/2024==============
+
+
+# num = [12,23,45,67,76,76,87] # 0 v
+
+# print(num)
+# print(num[3])
+
+# char = ["a",'b','c','d','e']
+
+# char.append("c")
+# char.append("f")
+# char.append("h")
+# char.append("u")
+# char.append("x")
+
+# char.insert(2,"x")
+# char.insert(1,9)
+
+# char.extend([1,2,3,4,5])
+
+
+# for i in char:
+#     if i == "c":
+#         continue
+#     print(i)
+
+# char.insert(2,"x")
+
+# char.remove("e")
+
+# char.pop()
+# char.pop()
+# char.pop()
+# char.pop()
+# char.pop()
+
+
+# print(char)
+# print(char[2])
