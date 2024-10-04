@@ -406,3 +406,23 @@
 
 # print(char)
 # print(char[2])
+
+
+# =====================04/10/2024==============
+
+
+num = [12,23,34,45,67,89] # 32 78
+
+# print(num[1:])
+# print(num[3:-2]) #5
+
+# num.insert(3,32)
+# num.append(78)
+# num.extend([9,45,67,34])
+
+# num.remove(67)
+# num.pop()
+# num.clear()
+# del num[4]
+
+# print(num)
