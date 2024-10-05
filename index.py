@@ -411,7 +411,7 @@
 # =====================04/10/2024==============
 
 
-num = [12,23,34,45,67,89] # 32 78
+# num = [12,23,34,45,67,89] # 32 78
 
 # print(num[1:])
 # print(num[3:-2]) #5
@@ -426,3 +426,33 @@ num = [12,23,34,45,67,89] # 32 78
 # del num[4]
 
 # print(num)
+
+#=============================05/10/2024===============
+
+# num = [99,54,12,23,34,45,67,1,89,4]
+
+# # num.reverse()
+
+# print(list(reversed(num)))
+
+# print(num)
+
+# mylist = ["G","h","oooooooo","t","g","aa","zzz","bbbbb"]
+# mylist = ["z","Z"]
+# mylist = ["hello","aa","bbbb","BBBBBB"]
+
+# mylist.sort(key=len)
+
+# x = sorted(mylist, reverse=True )
+
+# print(x)
+
+# num.sort()
+# num.sort(reverse=True)
+
+# x = num.sort()
+
+# print(num)
+# print(mylist)
+
+
