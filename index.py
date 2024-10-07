@@ -455,4 +455,55 @@
 # print(num)
 # print(mylist)
 
+#=============================07/10/2024===============
 
+# num = [12,34,1,56,100,5,67,78]
+# num = ["a","b","D","d","f","Y"]
+# num = ["aaa","bbbb","gg","j","KKKKKKK"]
+
+# num.sort(reverse=True)
+# num.sort(key=len)
+
+# x = sorted(num)
+
+# num = [12,34,12,56,100,12,5,67,12,78]
+
+# x = 
+
+# print(num)
+# print(num.count(12))
+
+# for i in num:
+#         print(i)
+
+# print(num[2])
+
+# num.reverse()
+# x = reversed(num)
+
+# print(num)
+# print(list(x))
+
+# x = [1,2,3,4,5]
+# # y = x
+# z = [2,4,3,1,5]
+
+# y = z + x
+
+# print(y*10)
+
+# print(id(x))
+# print(id(y))
+# print(id(z))
+
+
+# print(x == y)
+# print(x != z)
+
+# a = ["a","b","c"]
+# b = ["a","b","c"]
+# c = ["A","B","C"] 
+
+# print("a" not in a)
+
+# print(c > a)
