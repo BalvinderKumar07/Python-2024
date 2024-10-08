@@ -507,3 +507,35 @@
 # print("a" not in a)
 
 # print(c > a)
+
+#=============================08/10/2024===============
+
+# mylist = [12,23,34,56,67,89,24,9999]
+# mylist = ["a","A","b","Z"]
+
+# print(max(mylist))
+# print(min(mylist))
+
+# mylist = [1,2,3,[4,[2,3,45,5]],[9,0,7]]
+
+# for i in mylist:
+#         print(i)
+
+# mylist = [[1,2,3],[4,5,6],[7,8,9]]
+
+# for i in mylist:
+#         for x in i:
+#                 print(x)
+
+# print(mylist[3][1][2])
+
+n = int(input(" Enter a Number :  "))
+
+x = []
+
+for i in range(1,(n+1),2):
+        x.append(i)
+
+print(x)
+
+
