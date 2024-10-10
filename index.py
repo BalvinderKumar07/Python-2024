@@ -548,3 +548,26 @@
 # print(type(x))
 # print(type(y))
 # print(type(z))
+
+# CLASS No. 27====================10/10/2024==========
+
+# x = {
+#     'roll_no':12,
+#     'name': 'rahul',
+#     'class' : '12th'
+# }
+
+# x['address'] = 'tohana'
+
+# x['address'] = 'hisar'
+
+# for key in x:
+#     print( key ,x[key])
+
+# x['address'] = 'tohana'
+# x['hgh'] = 
+
+# print('Roll No :',x['roll_no'])
+# print('Student Name :',x['name'])
+
+# print(x)
