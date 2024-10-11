@@ -571,3 +571,75 @@
 # print('Student Name :',x['name'])
 
 # print(x)
+
+# CLASS No. 28====================11/10/2024==========
+
+# x = {
+#    1 : 100,
+#    6 : 200,
+#    3 : 300
+# } 
+# x[7] = 45
+# y = {
+#    5 : 100,
+#    7 : 566,
+#    8 : 567
+# } 
+
+# z = {
+#    5 : 100,
+#    7 : 566,
+#    8 : 567
+# } 
+
+# print(x.keys())
+# print(x.values())
+# print(x == y)
+# print(y == z)
+
+# print(cmp(x,y))
+
+# x.update(y)
+# print(x)
+
+# print(len(x))
+
+# y = x.copy()
+# y[5] = 567
+
+# print(y)
+
+# print(id(x))
+# print(id(y))
+
+# x[2] = 200
+# x[7] = 700
+
+# print(x)
+
+# mylist = list(x.keys())
+# mylist.sort()
+# for y in mylist:
+#     print(y , ":" , x[y])
+
+
+# print(mylist)
+
+# 1:100
+
+# print(x.pop(2))
+# x.popitem()
+# del x[2]
+# x.clear()
+# print(x)
+
+des = { x : x*x for x in range(1,6)}
+
+print(des)
+
+# y = max(des)
+y = min(des)
+
+print(y)
+# print(des)
+
