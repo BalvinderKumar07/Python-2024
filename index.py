@@ -703,25 +703,25 @@
 # else:
 #     print("Element not found in the list")
 
+# CLASS No. 29====================16/10/2024==========
+# mylist = [10,2,30,4,50,6,7,8]
 
-mylist = [10,2,30,4,50,6,7,8]
+# x = sorted(mylist)
+# print(x)
 
-x = sorted(mylist)
-print(x)
+# user = int(input("Enter A number : "))
 
-user = int(input("Enter A number : "))
+# y = -1 
 
-y = -1 
+# for i in range(len(x)):
+#     if x[i] == user:
+#         y = i
+#         break
 
-for i in range(len(x)):
-    if x[i] == user:
-        y = i
-        break
-
-if y != -1:
-    print("Element found at index", y)
-else:
-    print("Element not found in the list")
+# if y != -1:
+#     print("Element found at index", y)
+# else:
+#     print("Element not found in the list")
         
        
 
