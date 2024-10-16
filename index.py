@@ -633,13 +633,99 @@
 # x.clear()
 # print(x)
 
-des = { x : x*x for x in range(1,6)}
+# des = { x : x*x for x in range(1,6)}
 
-print(des)
-
-# y = max(des)
-y = min(des)
-
-print(y)
 # print(des)
+
+# # y = max(des)
+# y = min(des)
+
+# print(y)
+# print(des)
+
+
+# List of elements
+# arr = [10, 23, 45, 70, 11, 15]
+
+# # Target element to search
+# target = int(input("Enter You Find Index : "))
+
+# # Initialize result as -1 (not found)
+# result = -1
+
+# # Loop through the list
+# for index in range(len(arr)):
+#     # If the element matches the target
+#     if arr[index] == target:
+#         result = index
+#         break  # Exit the loop once the element is found
+
+# # Output the result
+# if result != -1:
+#     print("Element found at index", result)
+# else:
+#     print("Element not found in the list")
+
+
+
+# Sorted list of elements
+# arr = [10, 23, 45, 70, 80, 100]
+
+# # Target element to search
+# target = int(input("Enter you find index : "))
+
+# # Initialize start and end indices
+# start = 0
+# end = len(arr) - 1
+
+# # Initialize result as -1 (not found)
+# result = -1
+
+# # Binary search loop
+# while start <= end:
+#     # Find the middle index
+#     mid = (start + end) // 2
+
+#     # If the target is found
+#     if arr[mid] == target:
+#         result = mid
+#         break
+#     # If the target is less than the middle element, search the left half
+#     elif arr[mid] > target:
+#         end = mid - 1
+#     # If the target is greater than the middle element, search the right half
+#     else:
+#         start = mid + 1
+
+# # Output the result
+# if result != -1:
+#     print(f"Element found at index {result}")
+# else:
+#     print("Element not found in the list")
+
+
+mylist = [10,2,30,4,50,6,7,8]
+
+x = sorted(mylist)
+print(x)
+
+user = int(input("Enter A number : "))
+
+y = -1 
+
+for i in range(len(x)):
+    if x[i] == user:
+        y = i
+        break
+
+if y != -1:
+    print("Element found at index", y)
+else:
+    print("Element not found in the list")
+        
+       
+
+
+
+
 
