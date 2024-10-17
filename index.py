@@ -722,10 +722,15 @@
 #     print("Element found at index", y)
 # else:
 #     print("Element not found in the list")
-        
-       
 
+# CLASS No. 30====================17/10/2024========== 
 
-
-
-
+# =============================
+# CHAPTER READING WITH CODING      
+#==============================       
+# def myfun(a=0,b=0):
+#     # return a + b
+#     print(a + b)
+#     return
+# myfun()
+# print(myfun(10,20))
