@@ -734,3 +734,47 @@
 #     return
 # myfun()
 # print(myfun(10,20))
+
+# CLASS No. 31====================28/10/2024==========
+
+# b = 20
+# a = 10
+# def myfun(b=67):
+#     print(a + b)
+#     return
+  
+# print(b)    
+# myfun()
+# print(a)
+
+# """ 
+# DOC_1
+#     This Function Is Add
+#     idgwiquo
+#     ikjf
+#     osda
+#     sjh
+#     iujhfew[oi
+#     oihfew]p]
+# """
+# """ 
+# DOC_2
+#     This Function Is Add
+#     idgwiquo
+#     ikjf
+#     osda
+#     sjh
+#     iujhfew[oi
+#     oihfew]p]
+# """
+
+# print(__doc__)
+
+# a = 10
+# def myfun():
+#     global a
+#     a = 20
+#     print(a)
+#     return
+# myfun()
+# print(a)    
