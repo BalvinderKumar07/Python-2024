@@ -777,4 +777,45 @@
 #     print(a)
 #     return
 # myfun()
-# print(a)    
+# print(a)  
+# 
+# CLASS No. 31====================29/10/2024==========  
+
+# def myfun(a,b):
+#     return a + b
+
+# myfun(12,34)
+
+# def myfun(name="",msg):
+#     print(name,msg)
+#     return 
+
+# myfun("sonu","hello")
+
+# def myfun(*a):
+#     un = 0
+#     for s in a:
+#         un = un + s
+#     print(un)
+#     return
+    
+# myfun(12,23,45,6,789,0)    
+
+# x = lambda a,b : a + b
+# x(2,3)
+# print(x)
+# k = "tHIs is PyhTon claSs"
+
+# s = k.title()
+# print(s.istitle())
+# print(eval("5 * k"))
+# print(k.count("class"))
+# print(k.rfind("a",15,17))
+# print(k.capitalize())
+# print(k.title())
+# s = k.lower()
+# print(k.islower())
+# s = k.upper()
+# print(k.isupper())
+# print(k.upper())
+# print(k.swapcase())
