@@ -779,7 +779,7 @@
 # myfun()
 # print(a)  
 # 
-# CLASS No. 31====================29/10/2024==========  
+# CLASS No. 32====================29/10/2024==========  
 
 # def myfun(a,b):
 #     return a + b
@@ -819,3 +819,58 @@
 # print(k.isupper())
 # print(k.upper())
 # print(k.swapcase())
+
+# CLASS No. 33====================30/10/2024==========
+
+# txt = "..........we,,,,,,,,,,Mongo            "
+# print(txt)
+# print(txt.strip(".we,"))
+
+# x = "76sdf87"
+# y = x.isalnum()
+# print(y)
+
+# x = "Good Morning"
+# print("Mor" in x)
+
+# CLASS No. 34====================04/11/2024==========
+
+# print("12 + 12")
+# print(eval("12 * 12"))
+
+# x = "abc"
+
+# y = "@".join(x)
+
+# print(y)
+
+# print(x.partition("this"))
+
+# y = x.replace("Python","HTML")
+
+# print(y)
+
+# x = "          PYTHON           "
+# print(x.strip())
+# print(x.lstrip())
+# print(x.rstrip())
+
+# x = "ygkhg6456"
+
+# print(x.isspace())
+# print(x.isalpha())
+# print(x.isdigit())
+# print(x.isalnum())
+
+# x = "this class is python s/python.exe"
+
+
+# print(x.startswith("p",14,19))
+# print(x.endswith("exe"))
+
+x = "PYTHON"
+
+print(x[1:-2])
+
+
+
