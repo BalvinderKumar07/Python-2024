@@ -868,9 +868,46 @@
 # print(x.startswith("p",14,19))
 # print(x.endswith("exe"))
 
-x = "PYTHON"
+# x = "PYTHON"
 
-print(x[1:-2])
+# print(x[1:-2])
 
+# CLASS No. 35====================05/11/2024==========
 
+# x = "PYTHON"
 
+# print("P" in x)
+# print("P" not in x)
+# y = (12,3,45,6,78)
+# y = ("a","s","A","g","J")
+
+# x = max(y)
+# x = min(y)
+
+# c = 7.764
+
+# print(round(c,1))
+
+# print(x)
+
+# x = "1221"
+
+# y = int(x)
+
+# print(type(y))
+
+# print(pow(2,5)) # 2X2X2X2X2 = 32
+
+# import math
+
+# print(math.ceil(12.5))
+# print(math.ceil(-23.76))
+
+# print(math.floor(-12.13))
+# print(math.floor(12.9))
+
+# print(math.sqrt(25))
+# print(math.sqrt(625))
+
+# print(math.fabs(-12.234))
+# print(math.factorial(10)) #1X2X3X4X5 = 120
