@@ -911,3 +911,68 @@
 
 # print(math.fabs(-12.234))
 # print(math.factorial(10)) #1X2X3X4X5 = 120
+
+# CLASS No. 36====================06/11/2024==========
+
+# import math
+
+# # print(math.gcd(13,17))
+# # print(math.fmod(13,2))
+# # print(math.remainder(13,2))
+# print(divmod(14,5))
+
+# from datetime import date
+# from datetime import time
+# from datetime import datetime
+
+# print(date.today().day)3 
+# print(date.today().month)
+# print(date.today().year)
+# # print(date.today().weekday)
+# print(datetime.now())
+# print(datetime.time(datetime.now()))
+
+import math
+
+
+# print(math.gcd(15,25,30))
+
+# print(math.fmod(11,2))
+# print(math.remainder(11,2))
+
+# print(math.exp(5))
+
+# import random
+
+# print(random.randrange(1,10,2))
+
+from datetime import date
+from datetime import time
+from datetime import datetime
+
+# print(date.today().day)
+# print(date.today().month)
+# print(date.today().year)
+
+# print(datetime.now())
+
+
+# print(datetime.time(datetime.now()))
+
+# days = date.today().day
+# mon = date.today().month
+# yea = date.today().year
+
+# print(days,"/",mon,"/",yea)
+
+import datetime
+
+x = datetime.datetime.now()
+
+print(x.strftime("%a"))
+print(x.strftime("%A"))
+print(x.strftime("%b"))
+print(x.strftime("%B"))
+print(x.strftime("%m"))
+print(x.strftime("%y"))
+print(x.strftime("%Y"))
