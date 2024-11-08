@@ -932,8 +932,7 @@
 # print(datetime.now())
 # print(datetime.time(datetime.now()))
 
-import math
-
+# import math
 
 # print(math.gcd(15,25,30))
 
@@ -946,16 +945,15 @@ import math
 
 # print(random.randrange(1,10,2))
 
-from datetime import date
-from datetime import time
-from datetime import datetime
+# from datetime import date
+# from datetime import time
+# from datetime import datetime
 
 # print(date.today().day)
 # print(date.today().month)
 # print(date.today().year)
 
 # print(datetime.now())
-
 
 # print(datetime.time(datetime.now()))
 
@@ -965,14 +963,43 @@ from datetime import datetime
 
 # print(days,"/",mon,"/",yea)
 
-import datetime
+# import datetime
 
-x = datetime.datetime.now()
+# x = datetime.datetime.now()
 
-print(x.strftime("%a"))
-print(x.strftime("%A"))
-print(x.strftime("%b"))
-print(x.strftime("%B"))
-print(x.strftime("%m"))
-print(x.strftime("%y"))
-print(x.strftime("%Y"))
+# print(x.strftime("%a"))
+# print(x.strftime("%A"))
+# print(x.strftime("%b"))
+# print(x.strftime("%B"))
+# print(x.strftime("%m"))
+# print(x.strftime("%y"))
+# print(x.strftime("%Y"))
+
+# CLASS No. 37====================08/11/2024==========
+
+# x = open("ind.txt","r")
+
+# print(x.readlines())
+
+# x = open("inde.txt","a")
+
+# x = open("inde.txt","r")
+
+# print(x.tell())
+# print(x.readline())
+
+# print(x.tell())
+# print(x.readline())
+
+# print(x.tell())
+
+# print(x.seek(5))
+# print(x.readline())
+# x.writelines("Hello5\n")
+
+# print(x)
+
+# print(x.readline()) #\n
+# print(x.read())
+
+# x.close()
