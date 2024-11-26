@@ -34,3 +34,44 @@ import numpy as np
 # arr = np.eye(10)   
 # arr = np.empty(5,dtype=int)         
 # print(arr)
+
+# x = [[1,2,3],[7,8,9],[1,3,6]]
+# print(type(x))
+# a = np.asarray(x)
+# print(type(a))
+# print(a)
+
+# x = np.array([[10,20],[30,40]])
+# print(x)
+# m = np.asmatrix(x)
+# m[0,0] = 50
+# print(m)
+
+# x = b'HELLO PYTHON'
+# print(type(x))
+
+# a = np.frombuffer(x,dtype="S1",count=5,offset=5)
+# print(a)
+# print(type(a))
+
+# f = range(10)
+# g = iter(f)
+# x = np.fromiter(g,dtype=int)
+
+# print(x)
+
+# x = np.array([1,2,3]) #[1,2,3]
+# y = x                 #[1,2,3]  
+# z = np.copy(x)        #[1,5,3]
+
+# z[1] = 5
+
+# print(x==y)
+# print(y==z)
+# print(z==x)
+
+# a = np.arange(10,31,3,int)
+# print(a)
+
+# a = np.linspace(1,1,5,endpoint=True)
+# print(a)
