@@ -75,3 +75,42 @@ import numpy as np
 
 # a = np.linspace(1,1,5,endpoint=True)
 # print(a)
+
+# x = np.array([1,2,3,4,5,6,7,8,9])
+# x = np.array([[1,2,3],[4,5,6],[7,8,9]])
+# x = np.array([10,32,37,23,19,12,6])
+
+# g = x <= 18 # 1 < 2 = T, 2 < 2 = F , 3 < 2 = F
+
+# print(g)
+
+# print(x[x >= 18])
+
+# print(x[0,0],x[1,2],x[2,0])
+
+# print(x[1:,1:])
+
+# print(x[2])
+
+# print(x[3:6:2]) # strat
+
+# C1 = np.array([10,32,37,23,19,12,16,12,16,12])
+
+# newarr = np.array_split(C1,4)
+
+# print(newarr)
+
+# C2 = np.array([10,32,37,23,19,12,16])
+# C3 = np.array([10,32,37,23,19,12,16])
+
+# arr = np.concatenate((C1,C2,C3))
+
+# print(arr)
+
+# x1 = np.array([1,2,3])
+# x2 = np.array([1,2,3])
+
+# print(x1 + x2)
+# print(x1 * x2)
+# print(x1 / x2)
+# print(x1 - x2)
